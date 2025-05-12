@@ -19,7 +19,7 @@ st.set_page_config(
 st.title('🌷 Simple Prediction App')
 
 # Load dataset
-df = pd.read_csv('https://raw.githubusercontent.com/dataprofessor/data/master/iris.csv')
+df = pd.read_csv('iris.csv')
 
 # Input widgets
 st.sidebar.subheader('Input features')
